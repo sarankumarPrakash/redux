@@ -1,9 +1,7 @@
 import { BUY_CAKE } from "./CakeActionTypes";
 
-
-export const buycake=()=>{
-    return {
+export const CakeAction=()=>{
+    return{
         type:BUY_CAKE
     }
-
-};
+}
